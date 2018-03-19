@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Projet 3 Ajax</title>
+		<link rel="stylesheet" href="styles/main.css">
+	 	<script src="scripts/main.js"></script>	
+	</head>
+	<body onload="loadWether()">
+		<div id="mainContainer">
+			<header>
+			</header>
+			<div id="whiteBody">
+				<section>
+					<h1>Projet 3</h1>
+					<nav>
+						<h2>Menu</h2>
+						<ul>
+							<li><a href = "javascript:void(0)" onclick="loadArticle('article1')">Article 1</a></li>
+							<li><a href = "javascript:void(0)" onclick="loadArticle('article2')">Article 2</a></li>
+						</ul>
+					</nav>
+					<aside>
+						<h2>Météo</h2>
+						<div id="wetherInf">
+						</div>
+						<form id="searchForm">
+							<input type="search" class="textInput" placeholder="Rechercher...">
+							<input type="image" class="imgSubmit" src="images/lens.png" alt="Lens" align="top"></input>
+						</form>
+					</aside>
+				</section>
+				<div id="forArticle">
+				</div>
+			</div>
+			<footer>
+				<p>Copyright Maksim Kotau - Tous droits reservés</p>
+				<p>Nous contacter !</p>
+			</footer>
+		</div>
+	</body>
+</html>
